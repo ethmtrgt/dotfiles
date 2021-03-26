@@ -3,6 +3,7 @@
 ```
 Distro              : Manjaro
 Window Manager      : bspwm
+Status Bar          : polybar
 Shell               : zsh
 Terminal            : termite
 Fav. Editor         : vim
