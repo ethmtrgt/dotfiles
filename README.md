@@ -9,6 +9,11 @@ Terminal            : termite
 Fav. Editor         : vim
 ```
 
+## Configurations
+- Polybar: [Forest theme](https://github.com/adi1090x/polybar-themes#forest)(Not original version, I made small edits.)
+
 ## Previews
-![Screenshot from 2021-03-26 23-21-35](https://user-images.githubusercontent.com/48857416/112689740-bd274d80-8e8b-11eb-873f-983110799e2c.png)
-![Screenshot from 2021-03-26 23-04-46](https://user-images.githubusercontent.com/48857416/112689764-c31d2e80-8e8b-11eb-8bb2-7cbdf2934219.png)
+![image](https://user-images.githubusercontent.com/48857416/117201601-7ebf6f80-adf5-11eb-927b-c98b07e7824e.png)
+![image](https://user-images.githubusercontent.com/48857416/117201617-84b55080-adf5-11eb-8614-1a419f7915f8.png)
+![image](https://user-images.githubusercontent.com/48857416/117201636-8a129b00-adf5-11eb-87b1-9718b39b7277.png)
+![Uploading image.png…]()
