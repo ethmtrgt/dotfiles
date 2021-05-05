@@ -10,7 +10,7 @@ Fav. Editor         : vim
 ```
 
 ## Configurations
-- Polybar: [Forest theme] (https://github.com/adi1090x/polybar-themes#forest)(Not original version, I made small edits.)
+- Polybar: [Forest theme](https://github.com/adi1090x/polybar-themes#forest) (Not original version, I made small edits.)
 
 ## Previews
 ![image](https://user-images.githubusercontent.com/48857416/117201601-7ebf6f80-adf5-11eb-927b-c98b07e7824e.png)
