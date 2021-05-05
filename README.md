@@ -16,4 +16,4 @@ Fav. Editor         : vim
 ![image](https://user-images.githubusercontent.com/48857416/117201601-7ebf6f80-adf5-11eb-927b-c98b07e7824e.png)
 ![image](https://user-images.githubusercontent.com/48857416/117201617-84b55080-adf5-11eb-8614-1a419f7915f8.png)
 ![image](https://user-images.githubusercontent.com/48857416/117201636-8a129b00-adf5-11eb-87b1-9718b39b7277.png)
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/48857416/117201788-b8907600-adf5-11eb-91dd-2c39510dd86a.png)
