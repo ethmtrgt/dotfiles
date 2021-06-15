@@ -1,4 +1,4 @@
-# [WIP] Dotfiles
+# Dotfiles
 
 ```
 Distro              : Arch Linux
