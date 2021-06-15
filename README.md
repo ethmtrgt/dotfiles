@@ -20,5 +20,6 @@ Terminal            : alacritty
 
 
 #### Notes:
+- Wallpaper: [Photo by Thomas Verbruggen](https://unsplash.com/photos/OIVuAKXW9VA/)
 - Polybar theme is [Forest theme](https://github.com/adi1090x/polybar-themes#forest) but not the original version, I made small edits.
 - Alacritty color scheme is [gruvbox](https://github.com/morhetz/gruvbox)
