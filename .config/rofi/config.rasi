@@ -1,0 +1,70 @@
+////////////
+//        //
+//  rofi  //
+//        //
+////////////
+
+configuration {
+	modi: "drun,window,ssh,file-browser";
+	columns: 4;
+	font: "Inter Regular 12";
+	terminal: "alacritty";
+	icon-theme: "deepin";
+	drun-display-format: "{name}";
+	window-format: "{w}\t{t}";
+	fullscreen: true;
+	display-window: "";
+	display-ssh: "";
+	display-drun: "";
+	display-file-browser: "";
+}
+
+* {
+	background-color: transparent;
+	color: white;
+}
+
+window {
+	background-color: rgba(2, 4, 8, 0.9);
+}
+
+mainbox {
+	margin: 10em 15em;
+}
+
+inputbar {
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 0.6em 0 0.6em 0.85em;
+	margin: 0 0 1em 0;
+	border-radius: 99em;
+	border: 1px;
+	border-color: rgba(255, 255, 255, 0.25);
+}
+
+prompt {
+	margin: 0 0.5em 0 0.1em;
+	font: "Font Awesome 5 Free 11";
+	color: rgba(255, 255, 255, 0.5);
+	vertical-align: 0.5;
+}
+
+element {
+	padding: -0.25em 0.5em;
+	border-radius: 0.25em;
+}
+
+element.selected {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+element-icon {
+	size: 2.5em;
+}
+
+element-text {
+	padding: 1.5em 0.5em;
+}
+
+message {
+	margin: 0 0 1em 0;
+}
