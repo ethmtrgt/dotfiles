@@ -3,6 +3,7 @@
 ```
 Distro              : Arch Linux
 Window Manager      : bspwm
+Compositor          : picom
 Status Bar          : polybar
 Shell               : zsh
 Terminal            : alacritty
@@ -23,3 +24,4 @@ Terminal            : alacritty
 - Wallpaper: [Photo by Thomas Verbruggen](https://unsplash.com/photos/OIVuAKXW9VA/)
 - Polybar theme is [Forest theme](https://github.com/adi1090x/polybar-themes#forest) but not the original version, I made small edits.
 - Alacritty color scheme is [gruvbox](https://github.com/morhetz/gruvbox)
+- `kawase_blur` is NOT available in latest picom release (v8.2), consider compiling it from [git repo](https://github.com/yshui/picom).
