@@ -1,0 +1,104 @@
+/*
+
+    Author: Ethem Turgut | http://github.com/ethmtrgt
+
+ */
+
+configuration {
+    drun-display-format: "{icon} {name}";
+    font: "Iosevka Nerd Font 10";
+    modi: "window,run,drun";
+    show-icons: false;
+    icon-theme: "Papirus";
+    terminal: "alacritty";
+}
+@theme "/dev/null"
+
+* {
+    accent: #458588;
+    bg: #282828;
+    bg-alt: #3e3e3e;
+    bg-alt-2: #2b2b2b;
+    fg: #ebdbb2;
+    fg-alt: #424242;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+element {
+    border-radius: 6;
+    padding: 8;
+    text-color: @fg;
+}
+
+element-icon {
+    size: 36;
+    border: 0px;
+}
+
+element selected {
+    text-color: @fg;
+    background-color: @accent;
+}
+
+element-text {
+    text-color: inherit;
+    expand: true;
+    vertical-align: 0.5;
+}
+
+entry {
+    background-color: @bg-alt;
+    padding: 12;
+    text-color: @fg;
+}
+
+inputbar {
+    margin: 10;
+    children: [textbox-prompt-colon, entry];
+}
+
+prompt {
+    enabled: true;
+    padding: 12 6 6 12;
+}
+
+#textbox-prompt-colon {
+    expand: false;
+    color: @fg;
+    content: "❯";
+    padding: 0 10 0 10;
+    vertical-align: 0.5;
+}
+
+message {
+    border: 2 0 0;
+    border-color: @accent;
+    padding: 24;
+}
+
+textbox {
+    text-color: @accent;
+}
+
+listview {
+    background-color: @bg;
+    columns: 1;
+    lines: 12;
+}
+
+mainbox {
+    padding: 8;
+    border: 2px;
+    border-color: @accent;
+    background-color: @bg;
+    children: [inputbar, message, listview];
+}
+
+window {
+    width: 40%;
+    transparency: "real";
+}

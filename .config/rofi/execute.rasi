@@ -1,0 +1,13 @@
+@import "base.rasi"
+
+mainbox {
+    children: [prompt, inputbar];
+}
+
+prompt {
+    text-color: @accent;
+}
+
+window {
+    width: 36%;
+}

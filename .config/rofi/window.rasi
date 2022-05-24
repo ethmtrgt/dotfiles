@@ -1,0 +1,11 @@
+@import "base.rasi"
+
+element-icon {
+    size: 72;
+}
+
+listview {
+    columns: 4;
+    lines: 2;
+    cycle: true;
+}

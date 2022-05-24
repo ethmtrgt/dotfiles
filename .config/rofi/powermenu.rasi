@@ -1,0 +1,66 @@
+configuration {
+    drun-display-format: "{icon} {name}";
+    font: "FontAwesome 24";
+    modi: "window,run,drun";
+    show-icons: false;
+    icon-theme: "Papirus";
+    terminal: "alacritty";
+}
+@theme "/dev/null"
+
+* {
+    accent: #916f20;
+    bg: #151515;
+    bg-alt: #232323;
+    bg-alt-2: #2b2b2b;
+    fg: #e6ca87;
+    fg-alt: #424242;
+    background-color: @bg;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+element {
+    border-radius: 12;
+    padding: 12;
+    text-color: @fg-alt;
+    background-color: @bg;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}
+
+element selected {
+    text-color: @accent;
+    background-color: @bg-alt-2;
+}
+
+element-text {
+    text-color: inherit;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+    background-color: inherit;
+    expand: true;
+}
+
+listview {
+    cycle: true;
+    background-color: @bg;
+    columns: 5;
+    lines: 1;
+}
+
+mainbox {
+    border: 2;
+    border-radius: 12;
+    border-color: @accent;
+    background-color: @bg;
+    padding: 12;
+    children: [listview];
+}
+
+window {
+    width: 440;
+    transparency: "real";
+}
