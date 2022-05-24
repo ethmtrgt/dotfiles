@@ -1,0 +1,30 @@
+[global]
+font = "Iosevka Nerd Font 12"
+indicate_hidden = yes
+width = 400
+height = 120
+markup = full
+format = "%s\n%b"
+alignment = left
+word_wrap = yes
+ignore_newline = no
+shrink = no
+show_indicators = yes
+max_icon_size = 64
+line_height = 4
+separator_height = 2
+padding = 32
+corner_radius = 12
+horizontal_padding = 32
+separator_color = frame
+frame_width = 2
+browser = /usr/bin/firefox
+frame_color = "#22dbf0"
+separator_color = "#22dbf0"
+
+
+[base16_normal]
+msg_urgency = normal
+background = "#151515"
+foreground = "#e3cf9f"
+
